@@ -57,7 +57,7 @@
                     while($row = $result->fetch_assoc()) {
                         echo '<div class="card">';
                         echo '<h4>' . $row["nama_destinasi"] . '</h4>';
-                        echo '<p>' . $row["jarak"] . '</p>';
+                        echo '<p>' . $row["jarak"] . 'meter</p>';
                         echo '</div>';
                     }
                 } else {
